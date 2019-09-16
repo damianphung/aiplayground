@@ -1,0 +1,15 @@
+version: '2.1'
+
+services:
+  myservice:
+    image: myimage
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - MODULE_NAME=entryPoint
+      - VARIABLE_NAME=app
+    ports:
+      - "443:443"
+      - "80:80"
+
