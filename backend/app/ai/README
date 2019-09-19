@@ -1,2 +1,14 @@
 See
 https://medium.com/@lankinen/fastai-model-to-production-this-is-how-you-make-web-app-that-use-your-model-57d8999450cf
+
+
+Use FastAI.
+Use this IMDB model as a base
+https://towardsdatascience.com/machine-learning-text-classification-language-modelling-using-fast-ai-b1b334f2872d
+Feed input via frontend.
+
+Front end;
+Consider
+hugo with getJson for data driven content
+https://gohugo.io/templates/data-templates/#data-driven-content
+
